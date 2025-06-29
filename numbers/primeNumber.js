@@ -40,7 +40,6 @@ function askInput() {
  * @param {number} number - The number to be checked for primality.
  */
 function checkThisIsPrimeOrNot(number) {
-    let count = 0;
     if (number <= 1) {
         console.log(`${number} is not a prime number.`)
         return;
